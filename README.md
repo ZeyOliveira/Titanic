@@ -15,6 +15,12 @@ E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confus
 
 <br>
 
-## [Etapa 2: Data Cleaning e Tratando Colunas Categóricas.]
-
+## [Etapa 2: Data Cleaning e Tratando Colunas Categóricas.](https://github.com/ZeyOliveira/Titanic/blob/main/Etapa2.ipynb)
+### Nesse ponto foi decidido fazer o tratamento dos valores vazios e das colunas de texto. <br>
+- Inicialmente focamos na coluna que tinha menos valores vazios (Embarked), e utilizando-se do "entendimento do negócio" fizemos o tratamento usando dados reais.
+- Depois, tratamos os valores vazios da coluna (Age) fazendo o uso da própria base analisando os recursos. E o mesmo foi feito para a base de teste.
+- Removemos colunas com alta cardinalidade e que aparentemente não iriam contribuir em nada para prever a variável **target**.
+- Para tratar colunas de texto, foi utilizado o **OneHotEncoder** do sklearn e uma **função lambda** com um **if-ternário**.
+- Utilizamos em seguida, os mesmos modelos e métricas de avaliações vistas anteriormente.
+- - O **score do** Kaggle foi: 0.76315.
 <img src="https://github.com/ZeyOliveira/Titanic/blob/main/img/titanic_resultado2.PNG" />
