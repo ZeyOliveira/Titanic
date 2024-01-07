@@ -12,3 +12,9 @@ Histórico dos resultados das submissões podem ser obtidos diretamento no Kaggl
 E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confusão*, *Erro Médio Quadrático*.
 - O **score retornado** pelo Kaggle foi: 0.67703.
 <img src="https://github.com/ZeyOliveira/Titanic/blob/main/img/resultado1_kaggle.PNG" />
+
+<br>
+
+## [Etapa 2: Data Cleaning e Tratando Colunas Categóricas.]
+
+<img src="https://github.com/ZeyOliveira/Titanic/blob/main/img/titanic_resultado2.PNG" />
