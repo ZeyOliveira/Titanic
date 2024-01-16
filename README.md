@@ -24,3 +24,13 @@ E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confus
 - Utilizamos em seguida, os mesmos modelos e métricas de avaliações vistas anteriormente.
 - - O **score do** Kaggle foi: 0.76315.
 <img src="https://github.com/ZeyOliveira/Titanic/blob/main/img/titanic_resultado2.PNG" />
+
+<br>
+
+## [Etapa 3: Tratando Escalas, Criando novas Features e Entendendo o Negócio.](https://github.com/ZeyOliveira/Titanic/blob/main/Etapa2.ipynb)
+### Na etapa 3 entendemos melhor o négocio consultando a documentação da competição, e tentando melhorar os resultados. <br>
+- Foi feito o tratamento da escala dos dados das colunas Age e Fare.
+- Aprofundamos nas colunas sibsp e parch. Apartir delas foi criada uma nova feature chamada Familiares.
+- Verificamos a correlação entre as variáveis e selecionamos as melhores.
+- O primeiro resultado foi:
+- 
