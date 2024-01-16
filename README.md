@@ -33,4 +33,14 @@ E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confus
 - Aprofundamos nas colunas **SibSp** e **Parch**. Apartir delas foi criada uma nova feature chamada **Familiares**.
 - Verificamos a correlação entre as variáveis e selecionamos as melhores.
 - O primeiro resultado foi:
-- 
+<img src='https://github.com/ZeyOliveira/Titanic/blob/main/img/resultado_e3.PNG' />
+
+<br>
+
+- Em seguida, fizemos uma alteração simples no **estado aleatório** (random_state) do **train_test_split, de 1 para 42.**
+- O segundo resultado foi:
+<img src='https://github.com/ZeyOliveira/Titanic/blob/main/img/resultado_e3_1.PNG' />
+
+<br>
+
+- Isso acontece, porque as alterações no **random_state** mudo a forma com que os **train_test_split** seleciona os dados para depois dividi-lo, e pode acontecer de selecionar parte dos dados que estão "viciados" ou que possuem algum "viés".
