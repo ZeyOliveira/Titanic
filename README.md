@@ -27,10 +27,10 @@ E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confus
 
 <br>
 
-## [Etapa 3: Tratando Escalas, Criando novas Features e Entendendo o Negócio.](https://github.com/ZeyOliveira/Titanic/blob/main/Etapa2.ipynb)
+## [Etapa 3: Tratando Escalas, Criando novas Features e Entendendo o Negócio.](https://github.com/ZeyOliveira/Titanic/blob/main/Etapa3.ipynb)
 ### Na etapa 3 entendemos melhor o négocio consultando a documentação da competição, e tentando melhorar os resultados. <br>
-- Foi feito o tratamento da escala dos dados das colunas Age e Fare.
-- Aprofundamos nas colunas sibsp e parch. Apartir delas foi criada uma nova feature chamada Familiares.
+- Foi feito o tratamento da escala dos dados das colunas **Age** e **Fare**.
+- Aprofundamos nas colunas **SibSp** e **Parch**. Apartir delas foi criada uma nova feature chamada **Familiares**.
 - Verificamos a correlação entre as variáveis e selecionamos as melhores.
 - O primeiro resultado foi:
 - 
