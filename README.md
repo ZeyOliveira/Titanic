@@ -48,3 +48,4 @@ E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confus
 - Foi selecionado novos algoritmos para fazer a previsão dos dados: *Regressão Logística*, *Random Forest*, *Support Vector Machines*.
 - Dessa vez um modelo não visto obteve **resultado superior** ao modelo de Regressão Logística, o **SVC** do submódulo **SVM**.
 - O **score retornado** pelo Kaggle foi: 0.78229.
+<img src='https://github.com/ZeyOliveira/Titanic/blob/main/img/resultado_e4.PNG' />
