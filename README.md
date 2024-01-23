@@ -43,4 +43,8 @@ E **três métricas** para avaliar os resultados: *Ácuracia*, *Matrix de Confus
 
 <br>
 
-- Isso acontece, porque as alterações no **random_state** mudo a forma com que os **train_test_split** seleciona os dados para depois dividi-lo, e pode acontecer de selecionar parte dos dados que estão "viciados" ou que possuem algum "viés".
+## [Etapa 4: Selecionando novos modelos para fazer a previsão dos dados.](https://github.com/ZeyOliveira/Titanic/blob/main/Etapa4.ipynb)
+### Foi utilizada as bases com os tratamento realizados na **Etapa 3**. <br>
+- Foi selecionado novos algoritmos para fazer a previsão dos dados: *Regressão Logística*, *Random Forest*, *Support Vector Machines*.
+- Dessa vez um modelo não visto obteve **resultado superior** ao modelo de Regressão Logística, o **SVC** do submódulo **SVM**.
+- O **score retornado** pelo Kaggle foi: 0.78229.
